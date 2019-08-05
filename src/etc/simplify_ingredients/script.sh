@@ -1,0 +1,1 @@
+ls ../*csv | % {xsv select 2 $_ | sort | Get-Unique > ($_.Name)}
